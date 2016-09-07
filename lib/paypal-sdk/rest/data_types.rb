@@ -64,6 +64,7 @@ module PayPal::SDK
           object_of :payment_instruction, PaymentInstruction
           object_of :state, String
           object_of :experience_profile_id, String
+          object_of :invoice_number, String
           object_of :redirect_urls, RedirectUrls
           object_of :create_time, String
           object_of :update_time, String
